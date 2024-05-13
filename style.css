@@ -15,22 +15,13 @@ h1 {
   font-size: 20px;
 }
 
-
 #sketch-container {
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 0;
-    z-index: 999; /* Ensure it's on top of other elements */
+    right: 0;
 }
 
-#container {
-    position: relative; /* Needed for absolute positioning */
-}
-
-#text-container {
-    position: absolute;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    z-index: 1000; /* Ensure it's on top of sketch */
-    padding: 10px; /* Adjust padding as needed */
+.content {
+    margin-top: 100px; /* Adjust this value to leave space below the canvas */
+    /* Add additional styles for your content container as needed */
 }
