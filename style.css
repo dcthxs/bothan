@@ -17,7 +17,7 @@ h1 {
 
 
 #sketch-container {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 999; /* Ensure it's on top of other elements */
