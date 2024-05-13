@@ -53,3 +53,10 @@ h2 {
   margin-left: 60px; /* Adjust the distance between h1 and the column */
   padding-left: 40px;
 }
+
+.footer{     
+  background: rgb(255, 152, 17);
+     position: sticky; 
+     bottom: 0;
+  text-align: center;
+}
