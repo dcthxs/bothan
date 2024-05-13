@@ -7,7 +7,7 @@ let holdCount = 0;
 let smoothing = 0.02; // Adjust the smoothing factor for smoother animation
 
 function setup() {
-  createCanvas(200, 200);
+  createCanvas(100, 100);
   x = width / 2;
   y = height / 2;
   points = [
