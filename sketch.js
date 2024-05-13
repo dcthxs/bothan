@@ -1,36 +1,31 @@
 let x, y;
 let step = 0;
 let points = [];
-let maxSteps = 1000; // Increased maxSteps for faster animation
-let holdFrames = 30; // Reduced holdFrames for shorter hold time
+let maxSteps = 1000;
+let holdFrames = 30;
 let holdCount = 0;
-let smoothing = 0.02; // Adjust the smoothing factor for smoother animation
+let smoothing = 0.03;
 
 function setup() {
-  createCanvas(100, 100);
+  createCanvas(200, 200);
   x = width / 2;
   y = height / 2;
   points = [
-    [x, y - 25],
-    [x - 20, y],
-    [x - 20, y + 25],
-    [x + 20, y + 25],
-    [x + 20, y],
-    [x, y - 25]
+    [x, y - 50],
+    [x - 40, y],
+    [x - 40, y + 50],
+    [x + 40, y + 50],
+    [x + 40, y],
+    [x, y - 50]
   ];
-  
-  // Draw the transparent background only once in setup
-  background(0, 0); // Transparent background
+  background(0, 0);
 }
 
 function draw() {
-  // Clear the canvas at the beginning of each frame
   clear();
-  
-  stroke(255, 152, 17);
+  stroke(255, 200, 0);
   strokeWeight(4);
   noFill();
-  
   translate(width / 2, height / 2);
 
   if (step < maxSteps) {
@@ -38,24 +33,24 @@ function draw() {
     for (let i = 0; i <= points.length; i++) {
       let idx = map(step, 0, maxSteps, 0, points.length);
       if (i > idx) break;
-      let curr = points[i % points.length];
-      let next = points[(i + 1) % points.length];
-      let x_interp = lerp(curr[0], next[0], step / maxSteps); // Interpolating x-coordinate
-      let y_interp = lerp(curr[1], next[1], step / maxSteps); // Interpolating y-coordinate
+      let [currX, currY] = points[i % points.length];
+      let [nextX, nextY] = points[(i + 1) % points.length];
+      let x_interp = lerp(currX, nextX, step / maxSteps);
+      let y_interp = lerp(currY, nextY, step / maxSteps);
       vertex(x_interp - x, y_interp - y);
     }
     endShape();
-    step += smoothing * maxSteps; // Increased step for faster animation with smoothing
+    step += smoothing * maxSteps;
   } else {
     beginShape();
     for (let i = 0; i < points.length; i++) {
-      vertex(points[i][0] - x, points[i][1] - y);
+      let [px, py] = points[i];
+      vertex(px - x, py - y);
     }
     endShape();
-    
     holdCount++;
     if (holdCount >= holdFrames) {
-      step = 0; // Reset step to start the animation loop
+      step = 0;
       holdCount = 0;
     }
   }
