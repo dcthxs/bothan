@@ -1,36 +1,32 @@
- html, body {
-      margin: 0;
-      padding: 0;
-      background-image: url('corten.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed; /* This keeps the background fixed when scrolling */
-      height: 100%; /* Ensure body stretches to full height */
-    }
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url('corten.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
 
-    #sketch-container {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 1; /* Ensure canvas is above other content */
-    }
+#sketch-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-    canvas {
-      width: 100px; /* Set the desired width for the canvas */
-      height: 100px; /* Set the desired height for the canvas */
-      display: block;
-    }
+canvas {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
 
-    .content {
-      position: relative; /* Ensure positioning context */
-      z-index: 2; /* Ensure content is above canvas */
-      padding-top: 20px; /* Adjust this to create space between canvas and h1 */
-    }
+.content {
+  padding-top: 120px; /* Adjust this value to create space between canvas and h1 */
+}
 
-    h1 {
-      color: rgb(255, 152, 17);
-      font-family: 'Helvetica';
-      font-style: regular;
-      padding-left: 40px;
-      font-size: 20px;
-    }
+h1 {
+  color: rgb(255, 152, 17);
+  font-family: 'Helvetica';
+  font-size: 20px;
+  margin: 0; /* Remove default margin */
+}
