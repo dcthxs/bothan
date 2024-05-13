@@ -20,8 +20,11 @@ canvas {
 }
 
 #sketch-container {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 999; /* Ensure it's on top of other elements */
+  position: relative;
+}
+
+#sketch-container > script {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
