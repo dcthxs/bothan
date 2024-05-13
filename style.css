@@ -15,16 +15,10 @@ h1 {
   font-size: 20px;
 }
 
-canvas {
-  display: block;
-}
 
 #sketch-container {
-  position: relative;
-}
-
-#sketch-container > script {
-  position: absolute;
-  top: 0;
-  right: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999; /* Ensure it's on top of other elements */
 }
