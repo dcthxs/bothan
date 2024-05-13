@@ -53,36 +53,3 @@ h2 {
   margin-left: 60px; /* Adjust the distance between h1 and the column */
   padding-left: 40px;
 }
-
-.column p {
-  margin: 0; /* Remove default margin for paragraphs */
-}
-
-.footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-}
-
-.footer textarea {
-  width: 100%;
-  height: 100px; /* Adjust height as needed */
-  padding: 10px;
-  box-sizing: border-box; /* Ensure textarea includes padding in its width */
-}
-
-@media only screen and (max-width: 768px) {
-  .content {
-    padding-top: 40px; /* Adjust this value for space between canvas and h1 on smaller screens */
-  }
-  
-  .column {
-    margin-top: 10px; /* Adjust the distance between h1 and the column on smaller screens */
-    margin-left: 0; /* Reset margin for smaller screens */
-    text-align: center; /* Center column content */
-  }
-  
-  .footer {
-    margin-top: 10px; /* Adjust distance from column on smaller screens */
-  }
-}
