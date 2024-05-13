@@ -11,12 +11,12 @@ function setup() {
   x = width / 2;
   y = height / 2;
   points = [
-    [x, y - 50],
-    [x - 40, y],
-    [x - 40, y + 50],
-    [x + 40, y + 50],
-    [x + 40, y],
-    [x, y - 50]
+    [x, y - 25],
+    [x - 20, y],
+    [x - 20, y + 25],
+    [x + 20, y + 25],
+    [x + 20, y],
+    [x, y - 25]
   ];
   
   // Draw the transparent background only once in setup
