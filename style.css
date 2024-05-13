@@ -30,3 +30,11 @@ h1 {
   font-size: 20px;
   margin: 0; /* Remove default margin */
 }
+
+.column {
+  margin-left: 20px; /* Adjust the distance between h1 and the column */
+}
+
+.column p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
