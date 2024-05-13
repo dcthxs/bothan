@@ -22,7 +22,6 @@ h1 {
 }
 
 .content {
-    margin-top: 100px;
-    padding-top: 20px; /* Added padding-top */
-    /* Add additional styles for your content container as needed */
+    padding-top: 20px; /* Adjusted padding */
+    margin-left: 100px; /* Ensure content starts below the canvas */
 }
