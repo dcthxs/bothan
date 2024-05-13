@@ -27,7 +27,7 @@ function draw() {
   // Clear the canvas at the beginning of each frame
   clear();
   
-  stroke(255, 200, 0);
+  stroke(255, 98, 0);
   strokeWeight(4);
   noFill();
   
