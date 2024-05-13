@@ -21,12 +21,6 @@ h1 {
   font-size: 20px;
 }
 
-#sketch-container {
-    position: relative;
-    padding-left: 40px;
-    z-index: 9999; /* Ensure canvas is on top */
-}
-
 .content {
     margin-top: 40px; /* Add margin equal to the height of the canvas */
     padding-top: 40px; /* Adjusted padding */
