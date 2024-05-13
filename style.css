@@ -1,34 +1,34 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    background-image: url('corten.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* This keeps the background fixed when scrolling */
-}
+      margin: 0;
+      padding: 0;
+      background-image: url('corten.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* This keeps the background fixed when scrolling */
+      position: relative; /* Ensure positioning context */
+      height: 100%; /* Ensure body stretches to full height */
+    }
 
-canvas {
-    width: 100px; /* Set the desired width for the canvas */
-    height: 100px; /* Set the desired height for the canvas */
-    display: block;
-}
+    #sketch-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
 
-h1 {
-    color: rgb(255, 152, 17);
-    font-family: 'Helvetica';
-    font-style: regular;
-    padding-left: 40px;
-    font-size: 20px;
-}
+    canvas {
+      width: 100px; /* Set the desired width for the canvas */
+      height: 100px; /* Set the desired height for the canvas */
+      display: block;
+    }
 
-#sketch-container {
-    position: fixed;
-    top: 10px; /* Adjust top position to leave space */
-    left: 10px; /* Adjust left position to leave space */
-}
+    .content {
+      margin-top: 100px; /* Adjust this to create space between canvas and h1 */
+    }
 
-.content {
-    margin-top: 120px; /* Adjust margin-top to leave space for canvas */
-    padding-top: 20px;
-}
-
+    h1 {
+      color: rgb(255, 152, 17);
+      font-family: 'Helvetica';
+      font-style: regular;
+      padding-left: 40px;
+      font-size: 20px;
+    }
