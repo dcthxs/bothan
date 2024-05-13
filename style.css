@@ -1,11 +1,11 @@
 html, body {
   margin: 0;
-  padding: 20;
+  padding: 0; /* Adjusted padding */
   background-image: url('corten.jpg');
   background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* This keeps the background fixed when scrolling */
-        }
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This keeps the background fixed when scrolling */
+}
 
 h1 {
   color: rgb(255, 152, 17);
@@ -22,6 +22,7 @@ h1 {
 }
 
 .content {
-    margin-top: 100px; /* Adjust this value to leave space below the canvas */
+    margin-top: 100px;
+    padding-top: 20px; /* Added padding-top */
     /* Add additional styles for your content container as needed */
 }
