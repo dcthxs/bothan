@@ -8,11 +8,6 @@ html, body {
   height: 100%;
 }
 
-#sketch-container {
-  position: absolute;
- 
-}
-
 canvas {
   width: 100px;
   height: 100px;
