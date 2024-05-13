@@ -30,7 +30,7 @@ h1 {
 #text-container {
     position: absolute;
     bottom: 2;
-    left: 0;
+    left: 2;
     z-index: 1000; /* Ensure it's on top of sketch */
     padding: 10px; /* Adjust padding as needed */
 }
