@@ -1,11 +1,10 @@
-html, body {
+ html, body {
       margin: 0;
       padding: 0;
       background-image: url('corten.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed; /* This keeps the background fixed when scrolling */
-      position: relative; /* Ensure positioning context */
       height: 100%; /* Ensure body stretches to full height */
     }
 
@@ -13,6 +12,7 @@ html, body {
       position: absolute;
       top: 0;
       left: 0;
+      z-index: 1; /* Ensure canvas is above other content */
     }
 
     canvas {
@@ -22,7 +22,9 @@ html, body {
     }
 
     .content {
-      margin-top: 100px; /* Adjust this to create space between canvas and h1 */
+      position: relative; /* Ensure positioning context */
+      z-index: 2; /* Ensure content is above canvas */
+      padding-top: 100px; /* Adjust this to create space between canvas and h1 */
     }
 
     h1 {
