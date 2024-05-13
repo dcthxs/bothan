@@ -53,3 +53,9 @@ h2 {
   margin-left: 60px; /* Adjust the distance between h1 and the column */
   padding-left: 40px;
 }
+
+.bottom-text {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
