@@ -1,6 +1,6 @@
 html, body {
   margin: 0;
-  padding: 0; /* Adjusted padding */
+  padding: 40px; /* Adjusted padding */
   background-image: url('corten.jpg');
   background-size: cover;
   background-repeat: no-repeat;
