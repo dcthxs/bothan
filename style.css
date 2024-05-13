@@ -16,11 +16,12 @@ html, body {
 canvas {
   width: 100px;
   height: 100px;
-  display: block;
+  display: inline-block;
 }
 
 .content {
   padding-top: 120px; /* Adjust this value to create space between canvas and h1 */
+  padding-left: 20px;
 }
 
 h1 {
