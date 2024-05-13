@@ -24,7 +24,7 @@
     .content {
       position: relative; /* Ensure positioning context */
       z-index: 2; /* Ensure content is above canvas */
-      padding-top: 100px; /* Adjust this to create space between canvas and h1 */
+      padding-top: 200px; /* Adjust this to create space between canvas and h1 */
     }
 
     h1 {
