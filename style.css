@@ -25,7 +25,6 @@ h1 {
     position: fixed;
     top: 10px; /* Adjust top position to leave space */
     left: 10px; /* Adjust left position to leave space */
-    z-index: 9999;
 }
 
 .content {
