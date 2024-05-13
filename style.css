@@ -16,7 +16,7 @@ html, body {
 canvas {
   width: 100px;
   height: 100px;
-  display: inline-block;
+  display: block;
 }
 
 .content {
@@ -32,7 +32,7 @@ h1 {
 }
 
 .column {
-  margin-left: 20px; /* Adjust the distance between h1 and the column */
+  margin-left: 60px; /* Adjust the distance between h1 and the column */
 }
 
 .column p {
