@@ -28,7 +28,7 @@ h1 {
 }
 
 .content {
-    margin-top: 200px; /* Add margin equal to the height of the canvas */
-    padding-top: 20px; /* Adjusted padding */
+    margin-top: 40px; /* Add margin equal to the height of the canvas */
+    padding-top: 40px; /* Adjusted padding */
     z-index: 1; /* Ensure content is behind canvas */
 }
