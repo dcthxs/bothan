@@ -23,10 +23,12 @@ h1 {
     position: fixed;
     top: 0;
     left: 0;
-    height: 200px; /* Set a fixed height for the canvas */
+    width: 100%; /* Ensure canvas takes full width */
+    z-index: 9999; /* Ensure canvas is on top */
 }
 
 .content {
     margin-top: 200px; /* Add margin equal to the height of the canvas */
     padding-top: 20px; /* Adjusted padding */
+    z-index: 1; /* Ensure content is behind canvas */
 }
