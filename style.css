@@ -2,12 +2,19 @@ html, body {
   margin: 0;
   padding: 0;
   background-image: url('corten.jpg');
-            /* You can specify additional properties to control the appearance of the background image */
   background-size: cover; /* Adjusts the size of the background image to cover the entire body */
   background-repeat: no-repeat; /* Prevents the background image from repeating */
             /* You can add more properties like background-position to position the image */
         }
+
+h1 {
+  color: rgb(255, 98, 0);
+  font-family: 'Helvetica';
+  font-style: regular;
+  padding-left: 60px;
+  font-size: 20px;
 }
+
 canvas {
   display: block;
 }
