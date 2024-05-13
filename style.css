@@ -7,6 +7,10 @@ html, body {
   background-attachment: fixed; /* This keeps the background fixed when scrolling */
 }
 
+canvas {
+  display: block;
+}
+
 h1 {
   color: rgb(255, 152, 17);
   font-family: 'Helvetica';
