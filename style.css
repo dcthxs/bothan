@@ -2,9 +2,9 @@ html, body {
   margin: 0;
   padding: 0;
   background-image: url('corten.jpg');
-  background-size: cover; /* Adjusts the size of the background image to cover the entire body */
-  background-repeat: no-repeat; /* Prevents the background image from repeating */
-            /* You can add more properties like background-position to position the image */
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the background fixed when scrolling */
         }
 
 h1 {
