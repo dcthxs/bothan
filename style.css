@@ -1,34 +1,35 @@
 html, body {
-  margin: 0;
-  padding: 40px; /* Adjusted padding */
-  background-image: url('corten.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* This keeps the background fixed when scrolling */
+    margin: 0;
+    padding: 0;
+    background-image: url('corten.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the background fixed when scrolling */
 }
 
 canvas {
-  display: block;
-   top: 0;
-    left: 0;
+    width: 100px; /* Set the desired width for the canvas */
+    height: 100px; /* Set the desired height for the canvas */
+    display: block;
 }
 
 h1 {
-  color: rgb(255, 152, 17);
-  font-family: 'Helvetica';
-  font-style: regular;
-  padding-left: 40px;
-  font-size: 20px;
+    color: rgb(255, 152, 17);
+    font-family: 'Helvetica';
+    font-style: regular;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+#sketch-container {
+    position: fixed;
+    top: 10px; /* Adjust top position to leave space */
+    left: 10px; /* Adjust left position to leave space */
+    z-index: 9999;
 }
 
 .content {
-    margin-top: 40px; /* Add margin equal to the height of the canvas */
-    padding-top: 40px; /* Adjusted padding */
-    z-index: 1; /* Ensure content is behind canvas */
+    margin-top: 120px; /* Adjust margin-top to leave space for canvas */
+    padding-top: 20px;
 }
 
-.content2 {
-    margin-top: 80px; /* Add margin equal to the height of the canvas */
-    padding-top: 80px; /* Adjusted padding */
-    z-index: 0; /* Ensure content is behind canvas */
-}
