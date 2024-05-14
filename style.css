@@ -57,3 +57,10 @@ h2 {
   padding-left: 60px;
 }
 
+ .zoom {
+        transition: transform 0.3s ease;
+    }
+
+ .zoom:hover {
+        transform: scale(1.1); /* Adjust the scale factor as needed */
+    }
