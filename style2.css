@@ -28,21 +28,21 @@ canvas {
 }
 
 h1 {
-  color: rgb(255, 152, 17);
+  color: #424242;
   font-family: 'Helvetica';
   font-size: 40px;
   margin: 0; /* Remove default margin */
 }
 
 h2 {
-  color: rgb(255, 152, 17);
+  color: #424242;
   font-family: 'Helvetica';
   font-size: 20px;
   margin: 0; /* Remove default margin */
 }
 
 p {
-  color: rgb(255, 152, 17);
+  color: #424242;
   font-family: 'Helvetica';
   font-size: 20px;
   margin: 0; /* Remove default margin */
@@ -50,14 +50,14 @@ p {
 
 @media only screen and (max-width: 768px) {
   h1 {
-  color: rgb(255, 152, 17);
+  color: #424242;
   font-family: 'Helvetica';
   font-size: 60px;
   margin: 0; /* Remove default margin */
 }
 
 h2 {
-  color: rgb(255, 152, 17);
+  color: #424242;
   font-family: 'Helvetica';
   font-size: 40px;
   margin: 0; /* Remove default margin */
@@ -111,10 +111,6 @@ h2 {
   width: 100%; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
   }
-}
-
-.text-colour {
-  color: #424242;
 }
 
 .opacity {
