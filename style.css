@@ -11,7 +11,11 @@ html, body {
 .padding {
   padding: 80px;
 }
-
+@media only screen and (max-width: 768px) {
+  .padding {
+  padding: 10px;
+  }
+}
 canvas {
   width: 100px;
   height: 100px;
