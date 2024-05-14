@@ -59,6 +59,7 @@ h2 {
 
  .zoom {
         transition: transform 0.3s ease;
+         display: inline-block; /* Ensures the container only takes up the space of its content */
     }
 
  .zoom:hover {
