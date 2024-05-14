@@ -65,11 +65,18 @@ h2 {
   padding-left: 60px;
 }
 
- .zoom {
+.zoom {
         transition: transform 0.3s ease;
          display: inline-block; /* Ensures the container only takes up the space of its content */
+       margin-right: 20px; /* Adjust the margin between text elements */
     }
 
- .zoom:hover {
+
+.zoom:last-child {
+        margin-right: 0; /* Remove margin from the last text element */
+  
+    }
+
+.zoom:hover {
         transform: scale(1.1); /* Adjust the scale factor as needed */
     }
