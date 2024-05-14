@@ -1,11 +1,15 @@
 html, body {
   margin: 0;
-  padding: 80px;
+  padding: 0;
   background: #AD5E00;
   background-image: url('corten.jpg');
   background-size: cover;
   background-repeat: no-repeat;
  height: 100%;
+}
+
+.padding {
+  padding: 80px;
 }
 
 canvas {
