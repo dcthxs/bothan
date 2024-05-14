@@ -4,7 +4,7 @@ let points = [];
 let maxSteps = 1000; // Increased maxSteps for faster animation
 let holdFrames = 30; // Reduced holdFrames for shorter hold time
 let holdCount = 0;
-let smoothing = 0.001; // Adjust the smoothing factor for smoother animation
+let smoothing = 0.01; // Adjust the smoothing factor for smoother animation
 
 function setup() {
   createCanvas(200, 200);
