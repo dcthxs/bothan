@@ -54,14 +54,14 @@ p {
   font-family: 'Helvetica';
   font-size: 60px;
   margin: 0; /* Remove default margin */
-}
+  }
 
 h2 {
   color: rgb(255, 152, 17);
   font-family: 'Helvetica';
   font-size: 40px;
   margin: 0; /* Remove default margin */
-}
+  }
 }
   
 .column {
@@ -110,7 +110,7 @@ h2 {
   bottom: 0px; /* Adjust as needed */
   width: 100%; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
-}
+  }
 }
 
 .text-colour {
