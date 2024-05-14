@@ -1,0 +1,117 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #EEEEEE;
+  background-image: url('alum.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+ height: 100%;
+}
+
+.padding {
+  padding: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .padding {
+  padding: 20px;
+  }
+}
+canvas {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.content {
+  padding-top: 20px; /* Adjust this value to create space between canvas and h1 */
+  padding-left: 20px;
+}
+
+h1 {
+  color: rgb(255, 152, 17);
+  font-family: 'Helvetica';
+  font-size: 40px;
+  margin: 0; /* Remove default margin */
+}
+
+h2 {
+  color: rgb(255, 152, 17);
+  font-family: 'Helvetica';
+  font-size: 20px;
+  margin: 0; /* Remove default margin */
+}
+
+p {
+  color: rgb(255, 152, 17);
+  font-family: 'Helvetica';
+  font-size: 20px;
+  margin: 0; /* Remove default margin */
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+  color: rgb(255, 152, 17);
+  font-family: 'Helvetica';
+  font-size: 60px;
+  margin: 0; /* Remove default margin */
+}
+
+h2 {
+  color: rgb(255, 152, 17);
+  font-family: 'Helvetica';
+  font-size: 40px;
+  margin: 0; /* Remove default margin */
+}
+}
+  
+.column {
+  margin-left: 60px; /* Adjust the distance between h1 and the column */
+  padding-left: 40px;
+}
+.column2 {
+  padding-left: 60px;
+}
+
+.zoom {
+        transition: transform 0.3s ease;
+         display: inline-block; /* Ensures the container only takes up the space of its content */
+       margin-right: 20px; /* Adjust the margin between text elements */
+    }
+
+
+.zoom:last-child {
+        margin-right: 0; /* Remove margin from the last text element */
+  
+    }
+
+.zoom:hover {
+        transform: scale(1.1); /* Adjust the scale factor as needed */
+    }
+
+.top-right-svg {
+  position: fixed;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  width: 50px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.bottom-svg {
+  position: relative;
+  bottom: 0px; /* Adjust as needed */
+  width: 50%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media only screen and (max-width: 768px) {
+
+.bottom-svg {
+  position: relative;
+  bottom: 0px; /* Adjust as needed */
+  width: 100%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.text-colour {
+  color: #424242;
+}
