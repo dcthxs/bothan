@@ -116,3 +116,7 @@ h2 {
 .text-colour {
   color: #424242;
 }
+
+.opacity {
+            opacity: 0.5; /* Set opacity to 50% */
+        }
