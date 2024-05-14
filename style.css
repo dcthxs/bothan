@@ -93,5 +93,5 @@ h2 {
   position: relative;
   bottom: 0px; /* Adjust as needed */
   width: 100%; /* Adjust width as needed */
-  height: 100%; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
 }
