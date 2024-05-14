@@ -107,7 +107,6 @@ h2 {
 
 .ios-svg {
   position: relative;
-  bottom: 0px; /* Adjust as needed */
-  width: 20px; /* Adjust width as needed */
+  width: 10px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
 }
