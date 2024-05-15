@@ -18,6 +18,16 @@ html, body {
   padding: 20px;
   }
 }
+
+.padding2 {
+  padding: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .padding2 {
+  padding: 20px;
+  }
+}
+
 canvas {
   width: 100px;
   height: 100px;
