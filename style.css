@@ -20,18 +20,7 @@ html, body {
     }
 }
 
-.padding2 {
-    padding-left: 150px;
-    padding-right: 0px;
-}
-
-@media only screen and (max-width: 768px) {
-    .padding2 {
-        padding: 20px;
-    }
-}
-
-canvas {
+.canvas {
     width: 100px;
     height: 100px;
     display: block;
@@ -64,23 +53,18 @@ p {
     display: flex;
 }
 
-.padding2 {
+.text-and-svg {
     flex: 1;
+    padding: 20px;
+}
+
+.svg-container {
+    padding: 20px;
 }
 
 .bottom-svg {
-    width: 50%;
+    width: 100%;
     height: auto;
-}
-
-@media only screen and (max-width: 768px) {
-    .main-content {
-        flex-direction: column;
-    }
-
-    .bottom-svg {
-        width: 100%;
-    }
 }
 
 .footer {
@@ -112,3 +96,4 @@ p {
         display: none;
     }
 }
+
