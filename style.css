@@ -6,7 +6,7 @@ html, body {
   background: #AD5E00;
   background-image: url('corten.jpg');
   background-repeat: repeat;
- height: 100%;
+ height: auto;
 }
 
 .padding {
