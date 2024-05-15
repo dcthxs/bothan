@@ -11,10 +11,10 @@ html, body {
 }
 
 .styled-hr {
-    border: 0; /* Remove default border */
     height: 1px; /* Set height */
-    color: rgb(255, 152, 17);
+    background-color: rgb(255, 152, 17);
     margin: 20px 0; /* Set margin */
+    border: none; /* Remove border */
 }
 
 .padding {
