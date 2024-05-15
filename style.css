@@ -99,7 +99,7 @@ h2 {
 .bottom-svg {
   position: relative;
   bottom: 0px; /* Adjust as needed */
-  width: 100%; /* Adjust width as needed */
+  width: 50%; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
 }
 
