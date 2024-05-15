@@ -11,7 +11,7 @@ html, body {
 }
 
 .styled-hr {
-    height: 1px; /* Set height */
+    height: 3px; /* Set height */
     background-color: rgb(255, 152, 17);
     margin: 20px 0; /* Set margin */
     border: none; /* Remove border */
