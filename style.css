@@ -122,4 +122,6 @@ h2 {
   position: sticky; 
   bottom: 0;
   text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
 }
