@@ -1,178 +1,114 @@
 html, body {
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  font-family: 'Helvetica';
-  font-size: 20px;
-  color: #AD5E00;
-  background: #AD5E00;
-  background-image: url('corten.jpg');
-  background-repeat: repeat;
- height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: #AD5E00;
+    background: #AD5E00;
+    background-image: url('corten.jpg');
+    background-repeat: repeat;
+    height: auto;
 }
 
 .padding {
-  padding: 40px;
+    padding: 40px;
 }
+
 @media only screen and (max-width: 768px) {
-  .padding {
-  padding: 20px;
-  }
+    .padding {
+        padding: 20px;
+    }
 }
 
 .padding2 {
-  padding-left: 150px;
-  padding-right: 0px;
+    padding-left: 150px;
+    padding-right: 0px;
 }
+
 @media only screen and (max-width: 768px) {
-  .padding2 {
-  padding: 20px;
-  }
+    .padding2 {
+        padding: 20px;
+    }
 }
 
 canvas {
-  width: 100px;
-  height: 100px;
-  display: block;
+    width: 100px;
+    height: 100px;
+    display: block;
 }
 
 .content {
-  padding-top: 20px; /* Adjust this value to create space between canvas and h1 */
-  padding-left: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+h1, h2, p {
+    color: rgb(255, 152, 17);
+    font-family: 'Helvetica';
+    margin: 0;
 }
 
 h1 {
-  color: rgb(255, 152, 17);
-  font-family: 'Helvetica';
-  font-size: 40px;
-  margin: 0; /* Remove default margin */
+    font-size: 40px;
 }
 
 h2 {
-  color: rgb(255, 152, 17);
-  font-family: 'Helvetica';
-  font-size: 20px;
-  margin: 0; /* Remove default margin */
+    font-size: 20px;
 }
 
 p {
-  color: rgb(255, 152, 17);
-  font-family: 'Helvetica';
-  font-size: 20px;
-  margin: 0; /* Remove default margin */
+    font-size: 20px;
 }
 
-@media only screen and (max-width: 768px) {
-  h1 {
-  color: rgb(255, 152, 17);
-  font-family: 'Helvetica';
-  font-size: 60px;
-  margin: 0; /* Remove default margin */
-  }
-
-h2 {
-  color: rgb(255, 152, 17);
-  font-family: 'Helvetica';
-  font-size: 40px;
-  margin: 0; /* Remove default margin */
-  }
-}
-  
-.column {
-  margin-left: 60px; /* Adjust the distance between h1 and the column */
-  padding-left: 40px;
-}
-.column2 {
-  padding-left: 60px;
+.main-content {
+    display: flex;
 }
 
-.zoom {
-        transition: transform 0.3s ease;
-         display: inline-block; /* Ensures the container only takes up the space of its content */
-       margin-right: 20px; /* Adjust the margin between text elements */
-    }
-
-
-.zoom:last-child {
-        margin-right: 0; /* Remove margin from the last text element */
-  
-    }
-
-.zoom:hover {
-        transform: scale(1.1); /* Adjust the scale factor as needed */
-    }
-
-.top-right-svg {
-  position: fixed;
-  top: 10px; /* Adjust as needed */
-  right: 10px; /* Adjust as needed */
-  width: 50px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
+.padding2 {
+    flex: 1;
 }
 
 .bottom-svg {
-  position: relative;
-  bottom: 0px; /* Adjust as needed */
-  width: 50%; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
+    width: 50%;
+    height: auto;
 }
 
 @media only screen and (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
 
-.bottom-svg {
-  position: relative;
-  bottom: 0px; /* Adjust as needed */
-  width: 100%; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
-  }
+    .bottom-svg {
+        width: 100%;
+    }
 }
 
-.text-colour {
-  color: #424242;
-}
-
-.footer {     
-  background: rgb(255, 152, 17);
-  position: fixed; /* Change position to fixed */
-  bottom: 0;
-  width: 100%; /* Ensure the footer spans the entire width */
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.footer {
+    background: rgb(255, 152, 17);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .mobile-only {
     display: none;
-  }
+}
 
-  @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .mobile-only {
-      display: block;
+        display: block;
     }
-  }
+}
 
 .desktop-only {
     display: block;
-  }
-
-  @media only screen and (max-width: 767px) {
-    .desktop-only {
-      display: none;
-    }
-  }
-
-/* Add this CSS for desktop layout */
-.column {
-  width: 50%;
-  float: left;
-  box-sizing: border-box;
-  padding: 0 20px;
 }
 
-@media only screen and (max-width: 768px) {
-  /* Adjust paddings and margins for smaller screens */
-  .column {
-    width: 100%;
-    padding: 0;
-    margin-bottom: 20px; /* Add margin for spacing between sections */
-  }
+@media only screen and (max-width: 767px) {
+    .desktop-only {
+        display: none;
+    }
 }
