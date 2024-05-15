@@ -159,3 +159,20 @@ h2 {
       display: none;
     }
   }
+
+/* Add this CSS for desktop layout */
+.column {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjust paddings and margins for smaller screens */
+  .column {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px; /* Add margin for spacing between sections */
+  }
+}
