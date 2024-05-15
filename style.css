@@ -118,11 +118,12 @@ h2 {
   color: #424242;
 }
 
-.footer{     
+.footer {     
   background: rgb(255, 152, 17);
-  position: sticky; 
+  position: fixed; /* Change position to fixed */
   bottom: 0;
+  width: 100%; /* Ensure the footer spans the entire width */
   text-align: center;
- padding-top: 10px;
- padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
