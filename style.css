@@ -19,16 +19,6 @@ html, body {
   }
 }
 
-.padding2 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-@media only screen and (max-width: 768px) {
-  .padding2 {
-  padding: 20px;
-  }
-}
-
 canvas {
   width: 100px;
   height: 100px;
