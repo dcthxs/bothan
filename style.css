@@ -116,3 +116,10 @@ h2 {
 .text-colour {
   color: #424242;
 }
+
+.footer{     
+  background: rgb(255, 152, 17);
+  position: sticky; 
+  bottom: 0;
+  text-align: center;
+}
